@@ -15,6 +15,11 @@ MyToken is an ERC-20 token smart contract that provides a standard token impleme
 * Function Name: mint(address to, uint256 amount)
 * Access Control: Only the contract owner can call this function.
 
+## Transferring Tokens
+* Description: Token can be transfered between addresses
+* Function Name: transfer(address recipient, uint256 amount)
+* Access Control: Any user can call this function to transfer their own tokens.
+
 ## Burning Tokens
 * Description: Allows a user to destroy a specified amount of their own tokens.
 * Function Name: burn(uint256 amount)
@@ -34,6 +39,10 @@ MyToken is an ERC-20 token smart contract that provides a standard token impleme
 * The contract owner can use the mint function to mint new tokens.
 * Provide the recipient's address and the amount of tokens to mint.
 * Execute the function to mint the tokens.
+### Transfer Tokens:
+* Any user can use the transfer function to transfer their tokens.
+* Provide the recipient's address and the amount of tokens to transfer.
+* Execute the function to transfer the tokens.
 ### Burning Tokens:
 Any user can use the burn function to burn their own tokens.
 Specify the amount of tokens to burn.
