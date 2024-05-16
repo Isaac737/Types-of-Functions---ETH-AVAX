@@ -53,7 +53,7 @@ Execute the function to burn the tokens.
 * Security: The contract leverages OpenZeppelin's Ownable contract to manage ownership and access control.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 The ERC20 and Ownable contracts from OpenZeppelin are used in this smart contract.
